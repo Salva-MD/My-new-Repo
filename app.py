@@ -10,6 +10,7 @@ car_data = pd.read_csv('vehicles_us.csv')
 fig = px.scatter(car_data, x="odometer", y="price") 
 fig.show()
 
+st.header('Graficos para anuncios de venta de coches')
 
 hist_button = st.button('Construir histograma')
         
